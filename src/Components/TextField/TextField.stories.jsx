@@ -34,7 +34,7 @@ export const DisabledWithValue = {
 
 export const Errored = {
     args:{
-        value: 'Value',
+        placeholder: 'Placeholder',
         isRequired: true,
         isDisabled: false,
         error: true,
