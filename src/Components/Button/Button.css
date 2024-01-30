@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import '/src/Components/Colors.css';
+
+button{
+    box-sizing: border-box;
+    display: inline-flex;
+    align-items: center;
+
+    border-radius: 6px;
+    border: 2px solid var(--RoyalBlue, #4758DC);
+    background: transparent;
+    color: var(--RoyalBlue, #4758DC);
+
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    /* Label/Large */
+    font-family: "Open Sans";
+    
+    font-style: normal;
+    font-weight: 600;
+    
+    cursor: pointer;
+}
+
+.large{
+    gap: 10px;
+    padding: 6px 16px;
+    font-size: 18px;
+    line-height: 24px; 
+}
+
+.regular{
+    gap: 8px;
+    padding: 4px 12px;
+    font-size: 12px;
+    line-height: 18px; 
+}
+
+.disabled{
+    cursor:not-allowed;
+    border: 2px solid var(--Portage, #8B9ACE);
+    background: var(--White, #FFF);
+    color: var(--Portage, #8B9ACE);
+}
+
+.filled{
+    border: 2px solid var(--RoyalBlue, #4758DC);
+    background: var(--RoyalBlue, #4758DC);
+    color: var(--White, #FFF);
+}
+
+.filled.disabled{
+    cursor: not-allowed; 
+    background: var(--Portage, #8B9ACE);
+    border: 2px solid var(--Portage, #8B9ACE);
+}
+
+.loading{
+    cursor: not-allowed; 
+    background: var(--White, #FFF);
+}
+
+
+.filled.loading{
+    cursor: not-allowed; 
+    background: var(--Portage, #8B9ACE);
+    border: 2px solid var(--Portage, #8B9ACE);
+}
+
+
+.danger{
+    border: 2px solid var(--Alizarin, #E32327);
+    background: var(--Alizarin, #E32327);
+    color: var(--White, #FFF);
+}
+
+.icon-placeholder{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
