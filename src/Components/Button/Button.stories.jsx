@@ -1,5 +1,4 @@
 import Button from "./Button";
-import cogwheel from "../Icons/ic_cogwheel.svg"
 import SettingsIcon from '@mui/icons-material/Settings';
 
 export default {

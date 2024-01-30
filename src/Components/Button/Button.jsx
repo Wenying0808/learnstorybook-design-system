@@ -48,7 +48,7 @@ const Button = (
             className= {getButtonClassName()}
             >
                 {loading ? 
-                <>{label}<Loader size="medium"/></> 
+                <>{label}<Loader/></> 
                 : 
                 <>{label} {icon && <span className='icon-placeholder' color={getIconColor()}>{icon}</span>}</>}
             </button>
