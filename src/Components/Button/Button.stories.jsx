@@ -1,5 +1,7 @@
 import Button from "./Button";
 import SettingsIcon from '@mui/icons-material/Settings';
+import DeleteIcon from '@mui/icons-material/Delete';
+
 
 export default {
     title:"Button",
@@ -42,6 +44,19 @@ export const PrimaryLargeDisabled = {
     }
 };
 
+export const PrimaryLargeWithIconDisabled = {
+    args:{
+        label: "Button",
+        size: "large",
+        filled: true,
+        icon: <SettingsIcon sx={{ fontSize: 24 }}/>,
+        disabled: true,
+        danger: false,
+        loading: false,
+    }
+};
+
+
 export const PrimaryLargeLoading = {
     args:{
         label: "Button",
@@ -61,6 +76,18 @@ export const DangerLarge = {
         size: "large",
         filled: true,
         icon:false,
+        disabled: false,
+        danger: true,
+        loading: false,
+    }
+};
+
+export const DangerLargeWithIcon = {
+    args:{
+        label: "Delete",
+        size: "large",
+        filled: true,
+        icon: <DeleteIcon sx={{ fontSize: 24 }}/>,
         disabled: false,
         danger: true,
         loading: false,
@@ -91,17 +118,6 @@ export const SecondaryLargeWithIcon = {
     }
 };
 
-export const SecondaryLargeLoading = {
-    args:{
-        label: "Button",
-        size: "large",
-        filled: false,
-        icon:false,
-        disabled: false,
-        danger: false,
-        loading: true,
-    }
-};
 
 export const SecondaryLargeDisabled = {
     args:{
@@ -112,6 +128,30 @@ export const SecondaryLargeDisabled = {
         disabled: true,
         danger: false,
         loading: false,
+    }
+};
+
+export const SecondaryLargeWithIconDisabled = {
+    args:{
+        label: "Button",
+        size: "large",
+        filled: false,
+        icon: <SettingsIcon sx={{ fontSize: 24 }}/>,
+        disabled: true,
+        danger: false,
+        loading: false,
+    }
+};
+
+export const SecondaryLargeLoading = {
+    args:{
+        label: "Button",
+        size: "large",
+        filled: false,
+        icon:false,
+        disabled: false,
+        danger: false,
+        loading: true,
     }
 };
 
@@ -181,6 +221,19 @@ export const DangerRegular = {
         size: "regular",
         filled: true,
         icon:false,
+        disabled: false,
+        danger: true,
+        loading: false,
+    }
+};
+
+
+export const DangerRegularWithIcon = {
+    args:{
+        label: "Delete",
+        size: "regular",
+        filled: true,
+        icon: <DeleteIcon sx={{ fontSize: 16 }}/>,
         disabled: false,
         danger: true,
         loading: false,
