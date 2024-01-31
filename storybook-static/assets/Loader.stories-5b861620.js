@@ -1,0 +1,3 @@
+import{L as a}from"./Loader-1d089f4b.js";import"./emotion-react-jsx-runtime.browser.esm-9da0828f.js";import"./jsx-runtime-9dc53467.js";import"./index-76fb7be0.js";import"./_commonjsHelpers-de833af9.js";import"./emotion-use-insertion-effect-with-fallbacks.browser.esm-4926cc1b.js";const n={title:"Loader",component:a},r={args:{}};var o,e,t;r.parameters={...r.parameters,docs:{...(o=r.parameters)==null?void 0:o.docs,source:{originalSource:`{
+  args: {}
+}`,...(t=(e=r.parameters)==null?void 0:e.docs)==null?void 0:t.source}}};const u=["Default"];export{r as Default,u as __namedExportsOrder,n as default};

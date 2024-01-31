@@ -1,75 +1,138 @@
 yarn run v1.22.19
-$ storybook build --output-dir /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2
+$ storybook build --output-dir /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre
 @storybook/cli v7.6.10
 
-info => Cleaning outputDir: /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2
+info => Cleaning outputDir: /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre
 info => Loading presets
 info => Building manager..
-info => Manager built (97 ms)
+info => Manager built (110 ms)
 info => Building preview..
-info => Copying static files: /Users/w.chang/Documents/GitHub/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/sb-common-assets
+info => Copying static files: /Users/w.chang/Documents/GitHub/learnstorybook-design-system/node_modules/@storybook/manager/static at /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/sb-common-assets
 vite v4.5.2 building for production...
 
 ./sb-common-assets/fonts.css doesn't exist at build time, it will remain unchanged to be resolved at runtime
 transforming...
+node_modules/@mui/material/utils/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/index.js" was ignored.
+node_modules/@mui/material/utils/createSvgIcon.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/createSvgIcon.js" was ignored.
+node_modules/@mui/material/utils/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useEnhancedEffect.js" was ignored.
+node_modules/@mui/material/utils/useId.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useId.js" was ignored.
+node_modules/@mui/material/utils/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useControlled.js" was ignored.
+node_modules/@mui/material/utils/useEventCallback.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useEventCallback.js" was ignored.
+node_modules/@mui/material/utils/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useIsFocusVisible.js" was ignored.
+node_modules/@mui/material/utils/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/utils/useForkRef.js" was ignored.
+node_modules/@mui/utils/esm/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/index.js" was ignored.
+node_modules/@mui/material/SvgIcon/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/SvgIcon/index.js" was ignored.
+node_modules/@mui/utils/esm/useEnhancedEffect/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEnhancedEffect/index.js" was ignored.
+node_modules/@mui/utils/esm/useEventCallback/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEventCallback/index.js" was ignored.
+node_modules/@mui/utils/esm/useControlled/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useControlled/index.js" was ignored.
+node_modules/@mui/utils/esm/useForkRef/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useForkRef/index.js" was ignored.
+node_modules/@mui/utils/esm/useId/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useId/index.js" was ignored.
+node_modules/@mui/utils/esm/useIsFocusVisible.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useIsFocusVisible.js" was ignored.
+node_modules/@mui/utils/esm/usePreviousProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/usePreviousProps.js" was ignored.
+node_modules/@mui/material/SvgIcon/SvgIcon.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/SvgIcon/SvgIcon.js" was ignored.
+node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEnhancedEffect/useEnhancedEffect.js" was ignored.
+node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useEventCallback/useEventCallback.js" was ignored.
+node_modules/@mui/utils/esm/useControlled/useControlled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useControlled/useControlled.js" was ignored.
+node_modules/@mui/utils/esm/useForkRef/useForkRef.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useForkRef/useForkRef.js" was ignored.
+node_modules/@mui/utils/esm/useId/useId.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/utils/esm/useId/useId.js" was ignored.
+node_modules/@mui/material/styles/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/useThemeProps.js" was ignored.
+node_modules/@mui/material/styles/styled.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/styled.js" was ignored.
+node_modules/@mui/material/styles/defaultTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/material/styles/defaultTheme.js" was ignored.
+node_modules/@mui/system/esm/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/index.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/index.js" was ignored.
+node_modules/@mui/styled-engine/index.js (8:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/index.js" was ignored.
+node_modules/@mui/system/esm/Box/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/index.js" was ignored.
+node_modules/@mui/system/esm/createBox.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/createBox.js" was ignored.
+node_modules/@mui/system/esm/useThemeWithoutDefault.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeWithoutDefault.js" was ignored.
+node_modules/@mui/system/esm/useTheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useTheme.js" was ignored.
+node_modules/@mui/system/esm/ThemeProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/index.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/index.js" was ignored.
+node_modules/@mui/system/esm/Container/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/index.js" was ignored.
+node_modules/@mui/system/esm/Unstable_Grid/Grid.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/Grid.js" was ignored.
+node_modules/@mui/system/esm/Stack/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/index.js" was ignored.
+node_modules/@mui/system/esm/Unstable_Grid/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Unstable_Grid/index.js" was ignored.
+node_modules/@mui/system/esm/Stack/Stack.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Stack/Stack.js" was ignored.
+node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/styled-engine/StyledEngineProvider/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/index.js" was ignored.
+node_modules/@mui/system/esm/Box/Box.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Box/Box.js" was ignored.
+node_modules/@mui/styled-engine/GlobalStyles/index.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/index.js" was ignored.
+node_modules/@mui/system/esm/useThemeProps/useThemeProps.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/useThemeProps/useThemeProps.js" was ignored.
+node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/ThemeProvider/ThemeProvider.js" was ignored.
+node_modules/@mui/system/esm/Container/Container.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/Container/Container.js" was ignored.
+node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/system/esm/cssVars/useCurrentColorScheme.js" was ignored.
+node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/GlobalStyles/GlobalStyles.js" was ignored.
+node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js (1:0) Module level directives cause errors when bundled, "use client" in "node_modules/@mui/styled-engine/StyledEngineProvider/StyledEngineProvider.js" was ignored.
 node_modules/telejson/dist/index.mjs (1413:15) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
 node_modules/telejson/dist/index.mjs (1416:18) Use of eval in "node_modules/telejson/dist/index.mjs" is strongly discouraged as it poses security risks and may cause issues with minification.
-✓ 604 modules transformed.
+✓ 819 modules transformed.
 rendering chunks...
 computing gzip size...
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/youtube-9f26eb0b.svg                                                   0.72 kB │ gzip:   0.36 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/tutorials-adff6365.svg                                                 1.27 kB │ gzip:   0.63 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/discord-f7d1b78c.svg                                                   2.41 kB │ gzip:   1.15 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/github-cdfc3270.svg                                                    2.72 kB │ gzip:   1.28 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/context-c612d889.png                                                   6.12 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/styling-c83082e0.png                                                   7.24 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/iframe.html                                                                  12.76 kB │ gzip:   3.59 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/docs-5b0c7100.png                                                     27.88 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/share-b59d6c77.png                                                    40.77 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/accessibility-cd6d60f7.png                                            42.34 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/figma-plugin-b0a5ad2d.png                                             44.25 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/theming-b6e819c3.png                                                  44.37 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/testing-6a59f681.png                                                  49.31 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/addon-library-bc7ba705.png                                           467.37 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/TextField.stories-93cbf93c.css                                         0.99 kB │ gzip:   0.56 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-ba2273f4.js                                                    0.15 kB │ gzip:   0.15 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/emotion-use-insertion-effect-with-fallbacks.browser.esm-4926cc1b.js    0.18 kB │ gzip:   0.16 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-9eea8125.js                                                      0.21 kB │ gzip:   0.17 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/WithTooltip-V3YHNWJZ-adc9e204.js                                       0.44 kB │ gzip:   0.26 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/syntaxhighlighter-V7JZZA35-c1c038c1.js                                 0.45 kB │ gzip:   0.28 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-a1cf9e47.js                                                      0.49 kB │ gzip:   0.31 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/react-18-988a5df2.js                                                   0.55 kB │ gzip:   0.34 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-4e322043.js                                                    0.57 kB │ gzip:   0.35 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-73104b77.js                                                    0.64 kB │ gzip:   0.44 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/_commonjsHelpers-de833af9.js                                           0.69 kB │ gzip:   0.38 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-356e4a49.js                                                      0.77 kB │ gzip:   0.47 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-0ef86afd.js                                                    0.86 kB │ gzip:   0.55 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/jsx-runtime-29545a09.js                                                0.97 kB │ gzip:   0.60 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/entry-preview-1f5c28fc.js                                              1.15 kB │ gzip:   0.67 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/DocsRenderer-NNNQARDV-d8d82228.js                                      1.33 kB │ gzip:   0.71 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/Colors-3394f078.js                                                     1.44 kB │ gzip:   0.67 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-11d98b33.js                                                      2.59 kB │ gzip:   1.26 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-30b54f76.js                                                    3.21 kB │ gzip:   1.37 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/iframe-bad54583.js                                                     4.76 kB │ gzip:   1.69 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-d01b88e8.js                                                    5.23 kB │ gzip:   2.39 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-76fb7be0.js                                                      7.16 kB │ gzip:   2.91 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-da31036b.js                                                    7.62 kB │ gzip:   1.56 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-c56bf6ac.js                                                    8.28 kB │ gzip:   3.16 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/Configure-8d40119d.js                                                 17.02 kB │ gzip:   7.73 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/TextField.stories-4147c244.js                                         19.62 kB │ gzip:   7.67 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/Color-6VNJS4EI-18f2cb91.js                                            31.05 kB │ gzip:  11.64 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/preview-21802b0a.js                                                   72.07 kB │ gzip:  24.33 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-8fd8397b.js                                                     78.40 kB │ gzip:  23.41 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-d3ea75b5.js                                                    134.07 kB │ gzip:  43.20 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/entry-preview-docs-a89ae0d4.js                                       213.13 kB │ gzip:  66.23 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/index-ed331116.js                                                    539.49 kB │ gzip: 175.46 kB
-../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2/assets/formatter-SWP5E3XI-db095ab1.js                                       601.64 kB │ gzip: 185.03 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/youtube-9f26eb0b.svg                                                   0.72 kB │ gzip:   0.36 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/tutorials-adff6365.svg                                                 1.27 kB │ gzip:   0.63 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/discord-f7d1b78c.svg                                                   2.41 kB │ gzip:   1.15 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/github-cdfc3270.svg                                                    2.72 kB │ gzip:   1.28 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/context-c612d889.png                                                   6.12 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/styling-c83082e0.png                                                   7.24 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/iframe.html                                                                  12.76 kB │ gzip:   3.59 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/docs-5b0c7100.png                                                     27.88 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/share-b59d6c77.png                                                    40.77 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/accessibility-cd6d60f7.png                                            42.34 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/figma-plugin-b0a5ad2d.png                                             44.25 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/theming-b6e819c3.png                                                  44.37 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/testing-6a59f681.png                                                  49.31 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/addon-library-bc7ba705.png                                           467.37 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/IconButton.stories-31f6ef81.css                                        0.36 kB │ gzip:   0.26 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Loader-87bc1423.css                                                    0.39 kB │ gzip:   0.29 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Tooltip-c9e96619.css                                                   0.66 kB │ gzip:   0.46 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/TextField.stories-93cbf93c.css                                         0.99 kB │ gzip:   0.56 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Button.stories-d45014e6.css                                            1.45 kB │ gzip:   0.61 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-ba2273f4.js                                                    0.15 kB │ gzip:   0.15 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/emotion-use-insertion-effect-with-fallbacks.browser.esm-4926cc1b.js    0.18 kB │ gzip:   0.16 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-9eea8125.js                                                      0.21 kB │ gzip:   0.17 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Loader-1d089f4b.js                                                     0.23 kB │ gzip:   0.20 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/WithTooltip-V3YHNWJZ-515070a2.js                                       0.44 kB │ gzip:   0.26 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/syntaxhighlighter-V7JZZA35-69870d9c.js                                 0.45 kB │ gzip:   0.28 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-a1cf9e47.js                                                      0.49 kB │ gzip:   0.31 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Tooltip-84c1dd5e.js                                                    0.54 kB │ gzip:   0.37 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/react-18-988a5df2.js                                                   0.55 kB │ gzip:   0.34 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-4d830d5d.js                                                    0.57 kB │ gzip:   0.35 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Loader.stories-5b861620.js                                             0.60 kB │ gzip:   0.37 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-73104b77.js                                                    0.64 kB │ gzip:   0.44 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/_commonjsHelpers-de833af9.js                                           0.69 kB │ gzip:   0.38 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-356e4a49.js                                                      0.77 kB │ gzip:   0.47 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-0ef86afd.js                                                    0.86 kB │ gzip:   0.55 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Settings-2f4c399b.js                                                   0.94 kB │ gzip:   0.54 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/jsx-runtime-9dc53467.js                                                1.09 kB │ gzip:   0.67 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/entry-preview-1f5c28fc.js                                              1.15 kB │ gzip:   0.67 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Tooltip.stories-5545fc2a.js                                            1.32 kB │ gzip:   0.76 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/DocsRenderer-NNNQARDV-59a9e752.js                                      1.33 kB │ gzip:   0.71 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Colors-5b0d2a6b.js                                                     1.44 kB │ gzip:   0.67 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/IconButton.stories-8362222c.js                                         1.65 kB │ gzip:   0.72 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/TextField.stories-81d1f600.js                                          2.41 kB │ gzip:   0.84 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-11d98b33.js                                                      2.59 kB │ gzip:   1.26 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-30b54f76.js                                                    3.21 kB │ gzip:   1.37 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-d01b88e8.js                                                    5.23 kB │ gzip:   2.39 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/iframe-8e0a3fb7.js                                                     6.71 kB │ gzip:   1.92 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-76fb7be0.js                                                      7.16 kB │ gzip:   2.91 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-da31036b.js                                                    7.62 kB │ gzip:   1.56 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-c56bf6ac.js                                                    8.28 kB │ gzip:   3.16 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Button.stories-f837dacb.js                                            10.90 kB │ gzip:   2.05 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Configure-9b354183.js                                                 17.02 kB │ gzip:   7.73 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/emotion-react-jsx-runtime.browser.esm-9da0828f.js                     17.47 kB │ gzip:   7.05 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/Color-6VNJS4EI-239c1569.js                                            31.05 kB │ gzip:  11.64 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/jsx-runtime_commonjs-proxy-1ef62fc5.js                                41.67 kB │ gzip:  16.37 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/preview-21802b0a.js                                                   72.07 kB │ gzip:  24.33 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-8fd8397b.js                                                     78.40 kB │ gzip:  23.41 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-d3ea75b5.js                                                    134.07 kB │ gzip:  43.20 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/entry-preview-docs-a89ae0d4.js                                       213.13 kB │ gzip:  66.23 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/index-d3d55166.js                                                    539.49 kB │ gzip: 175.46 kB
+../../../../../var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre/assets/formatter-SWP5E3XI-3d08480f.js                                       601.64 kB │ gzip: 185.03 kB
 
 (!) Some chunks are larger than 500 kBs after minification. Consider:
 - Using dynamic import() to code-split the application
 - Use build.rollupOptions.output.manualChunks to improve chunking: https://rollupjs.org/configuration-options/#output-manualchunks
 - Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.
-✓ built in 4.32s
-info => Preview built (4.89 s)
-info => Output directory: /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--55229-9uYEaPPbolL2
-Done in 6.62s.
+✓ built in 5.01s
+info => Preview built (5.6 s)
+info => Output directory: /var/folders/tf/czbmvhps6tv1wl3jwq312z580000gp/T/chromatic--92335-yCl7N6YEhWre
+Done in 7.45s.
