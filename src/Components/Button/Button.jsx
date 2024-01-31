@@ -13,7 +13,7 @@ const Button = (
     loading,
     icon,
     onClick,
-    onmouseover,
+    onMouseover,
     }
 
 ) => {
@@ -44,13 +44,13 @@ const Button = (
             id = {id}
             type = "button"
             onClick = {onClick}
-            onMouseover = {onmouseover}
+            onMouseover = {onMouseover}
             className= {getButtonClassName()}
             >
                 {loading ? 
                 <>{label}<Loader/></> 
                 : 
-                <>{label} {icon && <span className='icon-placeholder' color={getIconColor()}>{icon}</span>}</>}
+                <>{label} {icon && <span className='icon-div' color={getIconColor()}>{icon}</span>}</>}
             </button>
         </div>
     );
