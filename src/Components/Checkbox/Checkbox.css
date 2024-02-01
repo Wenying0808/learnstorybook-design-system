@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import '/src/Components/Colors.css';
+
+
+input[type="checkbox"]{
+    appearance: none;
+    background-color: var(--White, #FFF);
+    margin: 0;
+    padding: 0;
+
+    cursor: pointer;
+
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    border: 1px solid var(--Manatee, #97999C);
+
+    display: grid;
+    place-content: center;
+    
+}
+
+input[type="checkbox"]:checked {
+    background-size: cover;
+  }
+
+
+input[type="checkbox"]:not(:disabled):checked {
+    background: var(--RoyalBlue, #4758DC);
+    border-color: var(--RoyalBlue, #4758DC);
+    background-image: url('./ic_checkmark.svg');
+}
+
+input[type="checkbox"]:disabled {
+    
+    cursor: not-allowed;
+    background: var(--Gallery, #EFEFEF);
+}
+
+input[type="checkbox"]:disabled:checked {
+    background: var(--Portage, #8B9ACE);
+    border-color: var(--Portage, #8B9ACE);
+    background-image: url('./ic_checkmark.svg');
+}
+
+
