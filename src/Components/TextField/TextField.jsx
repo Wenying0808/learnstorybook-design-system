@@ -13,7 +13,7 @@ const TextField = (
     error
     }) => {
         return(
-            <div>
+            <div className="textfield">
                 <label htmlFor={id}>{label}</label>
                 <input 
                 id = {id}

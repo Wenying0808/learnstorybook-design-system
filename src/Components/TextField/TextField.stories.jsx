@@ -14,6 +14,16 @@ export const Basic = {
     }
 };
 
+export const WithLabel = {
+    args:{
+        label: 'Name',
+        placeholder: 'Enter your name...',
+        isRequired: false,
+        isDisabled: false,
+        error: false,
+    }
+};
+
 export const Disabled = {
     args:{
         placeholder: 'Placeholder',
