@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './Checkbox.css';
 
 
-const Checkbox = ({disabled,}) => {
+const Checkbox = ({id, name, disabled,}) => {
         const [isChecked, setIsChecked] = useState (false);
         const handleCheckboxChange = () => {
             if (!disabled){
@@ -11,7 +11,7 @@ const Checkbox = ({disabled,}) => {
         }
 
         return (
-            <input type='checkbox' className='checkbox' checked={isChecked} disabled ={disabled} onChange={handleCheckboxChange} />
+            <input type='checkbox' className='checkbox' id={id} name={name} checked={isChecked} disabled ={disabled} onChange={handleCheckboxChange} />
         );
 
 };

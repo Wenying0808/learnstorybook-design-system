@@ -1,2 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 @import '/src/Components/Colors.css';
+
+.switch{
+    width: 32px;
+    height: 10px;
+    
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.slider {
+    width: 16px;
+    height: 16px;
+    background-color: var(--White, #FFF);
+    border-radius: 50%;
+    filter: drop-shadow(0px 0px 2px rgba(71, 88, 220, 0.30));
+
+    position: absolute;
+    top: -3px;
+    left: 0px;
+    transition: transform 0.3s ease;
+
+}
+
+
+.switch.on {
+    background: var(--RoyalBlue, #4758DC); /* Green color when switch is on */
+  }
+
+.switch.on .slider {
+    transform: translateX(16px); /* Move the slider to the right when switch is on */
+}
+
+.switch.off {
+    background-color: var(--Manatee, #97999C);
+}
+
+.switch.off .slider {
+    background-color: var(--White, #FFF);
+}
+
+.switch.disabled.on{
+    background: var(--Portage, #8B9ACE);
+    cursor: not-allowed;
+}
+.switch.disabled.on .slider{
+    background: var(--Gallery, #EFEFEF);
+}
+
+.switch.disabled.off{
+    background: var(--Silver-Sand, #BBBCBE);
+    cursor: not-allowed;
+}
+
+.switch.disabled.off .slider{
+    background: var(--Gallery, #EFEFEF);
+    cursor: not-allowed;
+  }

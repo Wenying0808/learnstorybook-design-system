@@ -7,6 +7,6 @@ export default {
 
 export const SwitchedOn = {
     args:{
-        
+        disabled: false,
     }
 }
