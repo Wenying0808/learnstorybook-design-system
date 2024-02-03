@@ -5,7 +5,7 @@ export default {
     component: Switch,
 };
 
-export const SwitchedOn = {
+export const Default = {
     args:{
         disabled: false,
     }
