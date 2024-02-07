@@ -3,13 +3,13 @@ import Select from 'react-select';
 import './Select.css';
 
 
-const options = [
+/*const options = [
   { value: 'chocolate', label: 'Chocolate' },
   { value: 'strawberry', label: 'Strawberry' },
   { value: 'vanilla', label: 'Vanilla' }
-];
+];*/
 
-const BaseSelect = ({width}) => {
+const BaseSelect = ({options, width}) => {
 
   const customStyles = {
     control: (provided, state) => ({ 
