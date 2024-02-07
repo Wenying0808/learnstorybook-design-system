@@ -9,7 +9,7 @@ import './Select.css';
   { value: 'vanilla', label: 'Vanilla' }
 ];*/
 
-const BaseSelect = ({options, width}) => {
+const BaseSelect = ({options, width, disabled}) => {
 
   const customStyles = {
     control: (provided, state) => ({ 
@@ -17,11 +17,14 @@ const BaseSelect = ({options, width}) => {
       width,
       height: '34px',
       minHeight:'34px', // It was 38px
+      backgroundColor: disabled? '#EFEFEF' : '#FFFFFF',
       borderColor: state.isFocused || state.isMenuOpen || state.isSelected ? '#4758DC' : '#97999C',
       boxShadow: state.isFocused ? '0px 0px 10px 0px rgba(71, 88, 220, 0.15)' : 'none',
       '&:hover': {
         borderColor: '#4758DC',
-      }
+      },
+
+      pointerEvents: disabled ? 'not-allowed' : 'auto',
       
     }),
     input: (provided, state) => ({ // Style for the selected value within the control
@@ -31,7 +34,7 @@ const BaseSelect = ({options, width}) => {
     indicatorSeparator: () => null, // Remove the indicator separator
     dropdownIndicator: (provided, state) => ({
       ...provided,
-      cursor:'pointer',
+      cursor: disabled ? 'not-allowed' : 'pointer',
       padding:'6px 8px', // make sure the height fit to the height of control 34px
       transition: 'transform 0.5s ease',
       transform: state.selectProps.menuIsOpen ? 'rotate(-180deg)' : 'rotate(0deg)',
@@ -64,7 +67,8 @@ const BaseSelect = ({options, width}) => {
   return (
         <Select 
           options = {options}
-          styles = {customStyles} 
+          styles = {customStyles}
+          isDisabled = {disabled}
         />    
   );
 };
